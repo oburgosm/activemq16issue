@@ -1,0 +1,14 @@
+= Demo ActiveMQ with SB 2.4.4
+
+This project is for debugging an issue on activemq 5.16.X that it does not happen on activemq 5.15.X
+
+To test the project:
+
+`mvn clean install`
+
+You can set value of activemq.version property to change activemq version, or comment this property to delegate on
+spring boot managed property (5.16.1)
+
+This project have a test which fail with activemq 5.16.1 but works with activemq 5.15.14
+
+
